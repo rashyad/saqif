@@ -1,0 +1,16 @@
+[package]
+name = "saqif"
+version = "0.1.0"
+authors = ["Rashyad <rashyadarfan@gmail.com>"]
+edition = "2021"
+description = "A simple application to take screenshots of given URLs"
+repository = "https://github.com/rashyad/saqif"
+license = "MIT"
+keywords = ["csv", "readcsv", "csvtojson", "csvtovector", "readcsvinrustlang"]
+categories = ["accessibility", "parsing"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+headless_chrome = "1.0.9"
+
