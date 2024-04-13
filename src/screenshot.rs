@@ -21,7 +21,6 @@ impl Screenshot {
             return Err("Urls cannot be an empty vector".to_string());
         }
 
-        // do folder_path and urls check here
         Ok(Screenshot {
             urls,
             folder_path
@@ -85,7 +84,7 @@ impl Screenshot {
             None,
             true,
             )
-        .expect("Failed to capture screenshot");;
+        .expect("Failed to capture screenshot");
 
         let image_path = format!("{}/{}.jpeg", folder_path, chrono::Utc::now().timestamp());
 
